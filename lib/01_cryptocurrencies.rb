@@ -30,7 +30,7 @@ def get_expensive_crypto(hash, n, price)
   end
 
   puts "#{n} #{if price then "most" else "less" end} expensive cryptocurrencies"
-  
+
   n.times do |i|
     print "#{expensive_cryptos[i][0]} : $#{expensive_cryptos[i][1]}\n"
   end
